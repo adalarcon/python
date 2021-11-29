@@ -22,7 +22,7 @@ def print_board(index, word, correct_letters):
             print(constants.IMAGES[index])
       
       for letter in word:
-            if(letter in  correct_letters):
+            if(letter in correct_letters):
                   print(letter, end=' ')
             else:
                   print('_', end=' ')
